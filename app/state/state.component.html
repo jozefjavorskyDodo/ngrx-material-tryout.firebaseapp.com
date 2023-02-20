@@ -1,0 +1,26 @@
+<hr class="hr-element">
+<br>
+<br>
+<button mat-raised-button color="primary" (click)="plus_one()">
+    <b>plus one</b>
+</button>
+<br>
+<br>
+<button mat-raised-button color="accent" (click)="zeroize()">
+    <b>zeroize</b>
+</button>
+<div id="only-div-output">&nbsp;&nbsp;&nbsp;
+    <b>{{ int_num$ | async }}</b>
+</div>
+<br>
+<br>
+<button mat-raised-button color="warn" (click)="minus_one()">
+    <b>minus one</b>
+</button>
+<br>
+<hr class="hr-element">
+<br>
+<br>
+<img [src]="image_data_code">
+<br>
+<hr class="hr-element">

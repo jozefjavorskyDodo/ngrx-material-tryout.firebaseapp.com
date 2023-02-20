@@ -1,0 +1,14 @@
+#only-div-output {
+    display: inline-block;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.hr-element {
+    width: 5cm;
+    float: left;
+    height: 2mm;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2mm;
+}
